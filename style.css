@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .post-box {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px 15px;
+  }
+
+  .post-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    background-image: url(./pic/Guitar.jpg);
+    background-size: cover;
+  }
+
+  .text-input {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    outline: none;
+  }
+
+  .divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .action-button {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+  .action-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .action-button div {
+    font-size: 14px;
+    color: #555;
+  }
